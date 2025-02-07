@@ -22,7 +22,7 @@ public class CustomerService {
 
     public List<Customer> getAllCustomers() {
         try {
-            List<Customer> users = customerRepository.findAll();
+            List<Customer> users = customerRepository.findAllByActiveTrue();
             if (users.isEmpty()) {
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Not found customers");
             }

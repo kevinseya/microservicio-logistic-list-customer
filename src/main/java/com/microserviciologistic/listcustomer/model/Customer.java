@@ -28,6 +28,10 @@ public class Customer {
     @Column(nullable = false)
     private String address;
 
+    @Column(nullable = false)
+    private Boolean active = true;
+
+
     public UUID getId() {
         return id;
     }
@@ -89,4 +93,10 @@ public class Customer {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    //Getter y Setter para active
+    public Boolean getActive() { return active; }
+
+    public void setActive(Boolean active) { this.active = active; }
+
 }
