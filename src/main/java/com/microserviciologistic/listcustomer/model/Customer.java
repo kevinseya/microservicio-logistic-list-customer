@@ -40,7 +40,7 @@ public class Customer {
         this.id = id;
     }
 
-    // Getter y Setter para name
+    // Getter y Setter for name
     public String getName() {
         return name;
     }
@@ -49,7 +49,7 @@ public class Customer {
         this.name = name;
     }
 
-    // Getter y Setter para lastname
+    // Getter y Setter for lastname
     public String getLastname() {
         return lastname;
     }
@@ -58,7 +58,7 @@ public class Customer {
         this.lastname = lastname;
     }
 
-    // Getter y Setter para email
+    // Getter y Setter for email
     public String getEmail() {
         return email;
     }
@@ -67,7 +67,7 @@ public class Customer {
         this.email = email;
     }
 
-    // Getter y Setter para phone
+    // Getter y Setter for phone
     public String getPhone() {
         return phone;
     }
@@ -76,7 +76,7 @@ public class Customer {
         this.phone = phone;
     }
 
-    // Getter y Setter para password
+    // Getter y Setter for password
     public String getPassword() {
         return password;
     }
@@ -85,7 +85,7 @@ public class Customer {
         this.password = password;
     }
 
-    // Getter y Setter para rol
+    // Getter y Setter for rol
     public String getAddress() {
         return address;
     }
@@ -94,7 +94,7 @@ public class Customer {
         this.address = address;
     }
 
-    //Getter y Setter para active
+    //Getter y Setter for active
     public Boolean getActive() { return active; }
 
     public void setActive(Boolean active) { this.active = active; }
